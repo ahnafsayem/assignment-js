@@ -1,6 +1,6 @@
 //GitHub:  https://github.com/ahnafsayem/assignment-js
 
-//------Kilometer to Meter Conversion:-----//
+//------01 Kilometer to Meter Conversion:-----//
 
 function kilometerToMeter(number)
 {
@@ -15,7 +15,7 @@ var result = kilometerToMeter(40);
 console.log(result)
 
 
-//-------------Budget Calculator-------------//
+//-----------02 Budget Calculator-------------//
 
      function budgetCalculator(watch, phone, laptop)                //input watch,phone,laptop quantity//
      {
@@ -28,7 +28,7 @@ console.log(result)
      var totalExpense = budgetCalculator(4,3,1);
      console.log(totalExpense);
 
-//-------------Hotel Expenses--------//
+//------------03 Hotel Cost--------//
 
 function hotelCost(duration)
 {
@@ -56,7 +56,7 @@ var expense = hotelCost(13);
 console.log(expense);
 
 
-//-----------Mega Friend---------//
+//-----------04 Mega Friend---------//
 
 function megaFriend(names)
 {
