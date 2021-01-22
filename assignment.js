@@ -37,8 +37,7 @@ function hotelCost(duration)
     {                                    //Person staying less than 10 Days//
         cost = duration * 100;                             //total cost//
     }
-    else if(duration <= 20)
-    {                               //person staying more than 10 days but less than 20 days//
+    else if(duration <= 20){             //person staying more than 10 days but less than 20 days//                               
         var firstPart = 10 * 100;
         remaining = duration - 10;
         secondPart = remaining * 80;
